@@ -34,14 +34,17 @@ public class UserServiceImpl implements UserService {
     }
 
     public User findByUsername(String username) {
+		// I would like to do something here
         return repository.findUserByUsername(username);
     }
 
     public List<User> findByFirstNameAndLastName(String firstName, String lastName) {
+		// I would like to do something here
         return repository.findByFirstNameAndLastName(firstName, lastName);
     }
 
     public List<User> findByFirstNameOrLastName(String firstName, String lastName) {
+		// I would like to do something here
         return repository.findByFirstNameOrLastName(firstName, lastName);
     }
 
