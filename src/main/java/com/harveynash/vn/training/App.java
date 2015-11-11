@@ -26,12 +26,12 @@ public class App {
         testFindByFirstNameAndLastName(userService, "Duncan", "Howard");
         testFindByFirstNameOrLastName(userService, "Truong", "Mai");
         testFindUserByUsernameQueryDsl(userService, "test3");
-        /*testFindByFirstNameAndLastNameQueryDsl(userService, "Duncan", "Howard");
+        testFindByFirstNameAndLastNameQueryDsl(userService, "Duncan", "Howard");
         testFindByFirstNameOrLastNameQueryDsl(userService, "Luong", "Pham");
         testFindByJoinDateBetween(userService, DateUtils.parseDate("01/01/2012", "dd/MM/yyy"), DateUtils.parseDate("31/12/2015", "dd/MM/yyy"));
         testFindByActiveTrue(userService);
         testFindByActiveFalse(userService);
-        testFindUserByUsernameQuery(userService, "test5");*/
+        testFindUserByUsernameQuery(userService, "test5");
         ((ClassPathXmlApplicationContext) context).close();
     }
 
