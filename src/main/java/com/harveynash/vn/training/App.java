@@ -20,8 +20,8 @@ public class App {
     public static void main(String[] args) throws Exception {
         ApplicationContext context = new ClassPathXmlApplicationContext("classpath:persistence-context.xml");
         UserService userService = context.getBean(UserService.class);
-        createUsers(userService);
-        testFindUserById(userService, 1L);
+//        createUsers(userService);
+//        testFindUserById(userService, 1L);
         testFindUserByUsername(userService, "test2");
         testFindByFirstNameAndLastName(userService, "Duncan", "Howard");
         testFindByFirstNameOrLastName(userService, "Truong", "Mai");
