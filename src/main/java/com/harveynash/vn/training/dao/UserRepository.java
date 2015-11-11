@@ -28,5 +28,5 @@ public interface UserRepository extends JpaRepository<User, Long>, QueryDslPredi
     @Query("FROM User WHERE username = :username")
     User findByUsernameQuery(@Param("username") String username);
 
-    /*void saySomething(String name) throws MyException;*/
+    void saySomething(String name) throws MyException;
 }

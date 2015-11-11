@@ -76,13 +76,13 @@ public class UserServiceImpl implements UserService {
         return repository.findByUsernameQuery(username);
     }
 
-   /* public void saySomething(String name) {
+   public void saySomething(String name) {
         try {
             repository.saySomething(name);
             System.out.println("Wow! Congrats " + name.toUpperCase() + ", your method has been successfully called.");
         } catch (MyException e) {
             System.err.println("Opps! Something wrong " + name.toUpperCase() + ", please help to check this again.");
         }
-    }*/
+    }
 
 }

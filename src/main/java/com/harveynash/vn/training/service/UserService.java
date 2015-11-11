@@ -33,5 +33,5 @@ public interface UserService {
 
     User findByUsernameQuery(String username);
 
-   /* void saySomething(String name);*/
+   void saySomething(String name);
 }
