@@ -104,7 +104,7 @@
 							</dependency>
 						</dependencies>
 						<executions>
-							<execution>
+						<execution>
 								<phase>generate-sources</phase>
 								<goals>
 									<goal>process</goal>
