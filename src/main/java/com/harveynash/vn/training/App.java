@@ -32,6 +32,7 @@ public class App {
         testFindByActiveTrue(userService);
         testFindByActiveFalse(userService);
         testFindUserByUsernameQuery(userService, "test5");
+        System.out.println("Let's learn git basic together");
         ((ClassPathXmlApplicationContext) context).close();
     }
 
