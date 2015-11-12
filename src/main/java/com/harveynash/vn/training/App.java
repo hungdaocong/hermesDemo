@@ -22,7 +22,7 @@ public class App {
         UserService userService = context.getBean(UserService.class);
 //        createUsers(userService);
 //        testFindUserById(userService, 1L);
-        testFindUserByUsername(userService, "test2");
+       /* testFindUserByUsername(userService, "test2");
         testFindByFirstNameAndLastName(userService, "Duncan", "Howard");
         testFindByFirstNameOrLastName(userService, "Truong", "Mai");
         testFindUserByUsernameQueryDsl(userService, "test3");
@@ -31,7 +31,7 @@ public class App {
         testFindByJoinDateBetween(userService, DateUtils.parseDate("01/01/2012", "dd/MM/yyy"), DateUtils.parseDate("31/12/2015", "dd/MM/yyy"));
         testFindByActiveTrue(userService);
         testFindByActiveFalse(userService);
-        testFindUserByUsernameQuery(userService, "test5");
+        testFindUserByUsernameQuery(userService, "test5");*/
         ((ClassPathXmlApplicationContext) context).close();
     }
 
